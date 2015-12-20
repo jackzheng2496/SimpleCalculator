@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="702.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.FXMLDocumentController">
+   <children>
+      <TextField fx:id="textfield" alignment="BASELINE_RIGHT" editable="false" layoutY="82.0" prefHeight="119.0" prefWidth="400.0" text="0">
+         <font>
+            <Font name="HelveticaNeueLTPro-Roman" size="55.0" />
+         </font>
+      </TextField>
+      <Button fx:id="equal" layoutX="300.0" layoutY="600.0" mnemonicParsing="false" onAction="#calculate" prefHeight="100.0" prefWidth="100.0" text="=" />
+      <Button fx:id="decimal" layoutX="200.0" layoutY="600.0" mnemonicParsing="false" onAction="#decimal" prefHeight="100.0" prefWidth="100.0" text="." />
+      <Button fx:id="b0" layoutY="600.0" mnemonicParsing="false" onAction="#showOnText" prefHeight="100.0" prefWidth="200.0" text="0" />
+      <Button fx:id="add" layoutX="300.0" layoutY="500.0" mnemonicParsing="false" onAction="#setOp" prefHeight="100.0" prefWidth="100.0" text="+" />
+      <Button fx:id="b3" layoutX="200.0" layoutY="500.0" mnemonicParsing="false" onAction="#showOnText" prefHeight="100.0" prefWidth="100.0" text="3" />
+      <Button fx:id="b2" layoutX="100.0" layoutY="500.0" mnemonicParsing="false" onAction="#showOnText" prefHeight="100.0" prefWidth="100.0" text="2" />
+      <Button fx:id="b1" layoutY="500.0" mnemonicParsing="false" onAction="#showOnText" prefHeight="100.0" prefWidth="100.0" text="1" />
+      <Button fx:id="sub" layoutX="300.0" layoutY="400.0" mnemonicParsing="false" onAction="#setOp" prefHeight="100.0" prefWidth="100.0" text="-" />
+      <Button fx:id="b6" layoutX="200.0" layoutY="400.0" mnemonicParsing="false" onAction="#showOnText" prefHeight="100.0" prefWidth="100.0" text="6" />
+      <Button fx:id="b5" layoutX="100.0" layoutY="400.0" mnemonicParsing="false" onAction="#showOnText" prefHeight="100.0" prefWidth="100.0" text="5" />
+      <Button fx:id="b4" layoutY="400.0" mnemonicParsing="false" onAction="#showOnText" prefHeight="100.0" prefWidth="100.0" text="4" />
+      <Button fx:id="mul" layoutX="300.0" layoutY="300.0" mnemonicParsing="false" onAction="#setOp" prefHeight="100.0" prefWidth="100.0" text="x" />
+      <Button fx:id="b9" layoutX="200.0" layoutY="300.0" mnemonicParsing="false" onAction="#showOnText" prefHeight="100.0" prefWidth="100.0" text="9" />
+      <Button fx:id="b8" layoutX="100.0" layoutY="300.0" mnemonicParsing="false" onAction="#showOnText" prefHeight="100.0" prefWidth="100.0" text="8" />
+      <Button fx:id="b7" layoutY="300.0" mnemonicParsing="false" onAction="#showOnText" prefHeight="100.0" prefWidth="100.0" text="7" />
+      <Button fx:id="AC" layoutY="200.0" mnemonicParsing="false" onAction="#AC" prefHeight="100.0" prefWidth="100.0" text="AC" />
+      <Button fx:id="plusmin" layoutX="100.0" layoutY="200.0" mnemonicParsing="false" onAction="#numSign" prefHeight="100.0" prefWidth="100.0" text="+/-" />
+      <Button fx:id="percent" layoutX="200.0" layoutY="200.0" mnemonicParsing="false" onAction="#percentage" prefHeight="100.0" prefWidth="100.0" text="\%" />
+      <Button fx:id="div" layoutX="300.0" layoutY="200.0" mnemonicParsing="false" onAction="#setOp" prefHeight="100.0" prefWidth="100.0" text="/" />
+      <TextField fx:id="whatOp" alignment="CENTER" editable="false" layoutX="6.0" layoutY="6.0" prefHeight="70.0" prefWidth="389.0" promptText="Operation">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>
